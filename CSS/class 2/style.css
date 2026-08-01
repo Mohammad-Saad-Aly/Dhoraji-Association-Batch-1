@@ -1,0 +1,49 @@
+/* h1 {
+    background-color: green;
+    color: aqua;
+} */
+
+/* id, class */
+
+
+/* #hello {
+    background-color: black;
+    color: white;
+}  */
+
+/* h1 {
+    background-color: green;
+    color: aqua;
+} */
+
+/* h1, p {
+
+} */
+
+/* ul > li {
+    background-color: aqua;
+} */
+
+/* div > h1 {
+    background-color: blueviolet;
+} */
+
+body {
+    background-color: rgb(201, 167, 234);
+}
+
+
+div {
+    background-color: black;
+    color: aqua;
+    border: 20px groove red;
+    padding: 20px 50px 30px 10px;
+    text-align: center;
+    border-radius: 30px;
+
+
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+}
