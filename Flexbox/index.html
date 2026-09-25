@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main {
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            height: 300px;
+            align-items: center;
+            width: 50%;
+            flex-wrap: wrap-reverse;
+            gap: 15px;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .first {
+            order: 3;
+            background-color: yellow;
+        }
+
+        .second {
+            background-color: red;
+            order: 1;
+        }
+
+        .third {
+            background-color: orange;
+        }
+
+        .four {
+            background-color: greenyellow;
+            order: -2;
+        }
+
+        .five {
+            background-color: aqua;
+            order: 2;
+        }
+
+        .six {
+            background-color: beige;
+            order: -1;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="first">one</div>
+        <div class="second">two</div>
+        <div class="third">three</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+        <div class="six">six</div>
+    </div>
+</body>
+
+</html>

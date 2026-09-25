@@ -1,0 +1,15 @@
+/* .sik {
+    background-color: pink;
+} */
+
+/* a {
+    color: orange !important;
+    font-size: xx-large !important;
+} */
+
+
+.abc {
+    height: 90vh;
+    width: 100%;
+    object-fit: contain !important;
+}

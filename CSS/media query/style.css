@@ -1,0 +1,50 @@
+/* body {
+    background-color: aqua;
+}
+
+@media screen and (max-width: 500px){
+    body {
+        background-color: green;
+    }
+} */
+
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: bisque;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px groove black;
+}
+
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 576px) {
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        background-color: bisque;
+        width: 80%;
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        border: 4px groove black;
+    }
+
+}
