@@ -1,0 +1,13 @@
+.carousel-item img {
+    height: 90vh;
+    object-fit: contain;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* .aqleema {
+    background-color: lightblue;
+} */
